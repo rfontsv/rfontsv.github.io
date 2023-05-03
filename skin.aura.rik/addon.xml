@@ -2,7 +2,7 @@
 <addon
     id="skin.aura.rik"
     version="1.0.1"
-    name="[COLOR White]Aura [COLOR azure][B]Rik [COLOR lime]MATRIX[/COLOR]|[COLOR dodgerblue]NEXUS[/B][/COLOR]"
+    name="[COLOR White]Aura [COLOR azure][B]Rik [COLOR lime]MATRIX[COLOR azure]|[COLOR dodgerblue]NEXUS[/B][/COLOR]"
     provider-name="jurialmunkey, ProtoType, Rik Team">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
