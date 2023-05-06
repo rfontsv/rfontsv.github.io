@@ -13,9 +13,9 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[/B][COLOR white]|[COLOR azure]NEXUS[/COLOR]'
-BUILDERNAME = 'JoseaTEBA & DavidZgZ, Rik'
-EXCLUDES = [ADDON_ID, 'repository.GTKing-Matrix']
+ADDONTITLE = '[COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR azure]NEXUS[/B][/COLOR]'
+BUILDERNAME = 'Rik Team'
+EXCLUDES = [ADDON_ID, 'repository.rfontsv']
 # Text File with build info in it.
 BUILDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/builds.txt'
 # How often you would like it to check for build updates in days
@@ -82,7 +82,7 @@ THEME6 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR4)
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Gracias por elegir [COLOR azure]RFONTSVBuild.[/COLOR]\n\nContáctenos en el Grupo Telegram [COLOR white]https://t.me/beelinkking[/COLOR]'
+CONTACT = 'Gracias por elegir [COLOR azure]BuildRIK.[/COLOR]\n\nContáctenos en el Grupo Telegram [COLOR white]https://t.me/beelinkking[/COLOR]'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -103,11 +103,11 @@ WIZARDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardf
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'No'
 # Addon ID for the repository
-REPOID = 'repository.GTKing-Matrix'
+REPOID = 'repository.RIK'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/rfontsv/repo/main/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/repository.GTKing-Matrix/'
+REPOZIPURL = 'https://raw.githubusercontent.com/rfontsv/repo/main/zips/repository.RIK/'
 #########################################################
 
 #########################################################
