@@ -13,7 +13,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR azure][B]BuildsRik[/B][/COLOR] [COLOR lime][B]MATRIX[/COLOR][COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
+ADDONTITLE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[/COLOR][COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
 BUILDERNAME = 'RikTeam'
 EXCLUDES = [ADDON_ID, 'repository.rfontsv']
 # Text File with build info in it.
