@@ -122,7 +122,7 @@ NOTIFICATION = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/rel/wizard
 HEADERTYPE = 'Image'
 # Font size of header
 FONTHEADER = ''
-HEADERMESSAGE = '[COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR azure]NEXUS[/B][/COLOR]'
+HEADERMESSAGE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
 # url to image if using Image 424x180
 HEADERIMAGE = 'https://i.imgur.com/7tsuHwV.png'
 # Font for Notification Window
