@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.GTKing-Matrix" name="[COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR white]NEXUS[/B][/COLOR]" version="3.2" provider-name="GTKing TEAM">
+<addon id="plugin.program.GTKing-Matrix" name="[COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[[COLOR azure]NEXUS[/B][/COLOR]" version="3.2" provider-name="GTKing TEAM">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -14,7 +14,7 @@
 	<extension point="xbmc.service" library="startup.py" start="startup"/>
   
 	<extension point="xbmc.addon.metadata">
-		<summary lang="es">[COLOR azure]GTKing[/COLOR] [COLOR white]MATRIX[/COLOR]|[COLOR violet]NEXUS[/COLOR][/B][/COLOR] tu Wizard para [COLOR teal]KODI 19.x y 20.x[/COLOR]!!</summary>
+		<summary lang="es">[COLOR azure]GTKing[/COLOR] [COLOR lime]MATRIX[/COLOR][COLOR white]|[/COLOR][COLOR azure]NEXUS[/COLOR][/B][/COLOR] tu Wizard para [COLOR teal]KODI 19.x y 20.x[/COLOR]!!</summary>
 		<description>
 [B]• Developers:[/B] [COLOR gold]DavidZgZ y JoseaTEBA[/COLOR]
 [B]• Testers:[/B]        [COLOR dodgerblue]ehSugea, Vicente,  
@@ -25,7 +25,7 @@
 		<reuselanguageinvoker>false</reuselanguageinvoker>
 		<source>https://www.github.com/gtkingbuild/Repo-GTKing/plugin.program.GTKing-Matrix/</source>
 		<news>
-• plugin.program [COLOR azure][B]GTKing[/B][/COLOR] [COLOR white][B]MATRIX|NEXUS[/B][/COLOR]
+• plugin.program [COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[/B][/COLOR]
 
 • 26/09/2021
 - Traducción en Limpieza.
@@ -39,7 +39,7 @@
 
 • 05/03/2021
 - Instalador actualizado a la versión 3.0.4
-- Inciada la compatibilidad con Kodi 19.0 Matrix y 20.0 Nexus
+- Inciada la compatibilidad con Kodi 19.0 Matrix
 		</news>
 		<assets>
 			<icon>icon.png</icon>
