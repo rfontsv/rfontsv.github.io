@@ -14,7 +14,7 @@
 	<extension point="xbmc.service" library="startup.py" start="startup"/>
   
 	<extension point="xbmc.addon.metadata">
-		<summary lang="es">[COLOR azure]GTKing[/COLOR] [COLOR white]MATRIX[/COLOR]|[COLOR violet]NEXUS[/COLOR][/B][/COLOR] tu Wizard para [COLOR teal]KODI 19.x y 20.x[/COLOR]!!</summary>
+		<summary lang="es">[COLOR azure]RikTeam[/COLOR] [COLOR lime]MATRIX[COLOR white]|[COLOR violet]NEXUS[/COLOR][/B][/COLOR] tu Wizard para [COLOR teal]KODI 19.x y 20.x[/COLOR]!!</summary>
 		<description>
 [B]• Developers:[/B] [COLOR gold]DavidZgZ y JoseaTEBA[/COLOR]
 [B]• Testers:[/B]        [COLOR dodgerblue]ehSugea, Vicente,  
@@ -25,7 +25,7 @@
 		<reuselanguageinvoker>false</reuselanguageinvoker>
 		<source>https://www.github.com/rfontsv/plugin.program.RikTeam/</source>
 		<news>
-• plugin.program [COLOR azure][B]RikTeam[/B][/COLOR] [COLOR white][B]MATRIX[COLOR lime]MATRIX[/COLOR][COLOR white]|[/COLOR][COLOR violet]NEXUS[/B][/COLOR]
+• plugin.program [COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[/COLOR][COLOR violet]NEXUS[/B][/COLOR]
 
 • 26/09/2021
 - Pruebas con Build Rik MATRIX | NEXUS
@@ -33,7 +33,7 @@
 - Traducción en Limpieza.
 
 • 26/08/2021
-- Finalizadas las pruebas con Build Prime GTKing MATRIX.
+- Finalizadas las pruebas con Build Rik.
 
 • 10/07/2021
 - Instalador renombrado a la versión 1.0
