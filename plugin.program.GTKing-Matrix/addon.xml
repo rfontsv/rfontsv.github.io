@@ -25,7 +25,7 @@
 		<reuselanguageinvoker>false</reuselanguageinvoker>
 		<source>https://www.github.com/gtkingbuild/Repo-GTKing/plugin.program.GTKing-Matrix/</source>
 		<news>
-• plugin.program [COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[/B][/COLOR]
+• plugin.program [COLOR azure][B]GTKing[/B][/COLOR] [COLOR white][B]MATRIX|NEXUS[/B][/COLOR]
 
 • 26/09/2021
 - Traducción en Limpieza.
@@ -39,7 +39,7 @@
 
 • 05/03/2021
 - Instalador actualizado a la versión 3.0.4
-- Inciada la compatibilidad con Kodi 19.0 Matrix
+- Inciada la compatibilidad con Kodi 19.0 Matrix y 20.0 Nexus
 		</news>
 		<assets>
 			<icon>icon.png</icon>
