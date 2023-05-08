@@ -21,7 +21,7 @@
 [B]• Testers:[/B]        [COLOR dodgerblue]ehSugea, Vicente,
                         Tete6776, Mapache,
                         Keto y Th3action. Rik Team[/COLOR]
-[B]• Telegram:[/B]    [COLOR azure]t.me/beelinkking[/COLOR]</description>
+[B]• Telegram:[/B]    [COLOR lime]t.me/beelinkking[/COLOR]</description>
 		<platform>all</platform>
 		<reuselanguageinvoker>false</reuselanguageinvoker>
 		<source>https://www.github.com/gtkingbuild/Repo-GTKing/plugin.program.GTKing-Matrix/</source>
@@ -235,7 +235,7 @@
 <addon
     id="skin.aura.rik"
     version="1.0.1"
-    name="[COLOR White]Aura [COLOR azure][B]Rik [COLOR lime]MATRIX[/COLOR]|[COLOR dodgerblue]NEXUS[/B][/COLOR]"
+    name="[COLOR White]Aura [COLOR azure][B]Rik [COLOR lime]MATRIX[COLOR azure]|[COLOR dodgerblue]NEXUS[/B][/COLOR]"
     provider-name="jurialmunkey, ProtoType, Rik Team">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
