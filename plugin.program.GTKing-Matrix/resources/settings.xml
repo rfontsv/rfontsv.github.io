@@ -9,9 +9,9 @@
         <setting id="nextbuildcheck" type="text" label="A continuación, compruebe la actualización de la build: " enable="false" default="2021-03-17 00:00:00" />
         <setting id="disableupdate" type="bool" label="Deshabilitar la Notificación de Actualización" default="false"/>
         <setting type="lsep" label="Mostrar Builds:"/>
-        <setting id="show17" type="bool" label="Mostrar Krypton (v17.0) Builds" default="true"/>
         <setting id="show18" type="bool" label="Mostrar Leia (v18.0) Builds" default="true"/>
         <setting id="show19" type="bool" label="Mostrar Matrix (v19.0) Builds" default="true"/>
+		<setting id="show20" type="bool" label="Mostrar Matrix (v20.0) Builds" default="true"/>
         <setting id="separate" type="bool" label="No separe en función de la versión" default="false"/>
         
         <!-- Hidden Settings -->
@@ -158,7 +158,7 @@
 
     <category label="Instalar Configuración">
         <setting type="lsep" label="APKs" />
-        <setting type="action" label="Abra la Configuración del Actualizador de Android Kodi" action="RunPlugin(plugin://plugin.program.gtkinbuild/?mode=fmchoose)" option="close" />
+        <setting type="action" label="Abra la Configuración del Actualizador de Android Kodi" action="RunPlugin(plugin://plugin.program.GTKing-Matrix/?mode=fmchoose)" option="close" />
         <setting id="apk_path" type="folder" label="Elija la Ubicación de Descarga" default="/storage/emulated/0/Download/"/>
         <setting type="lsep" label="Guardar Datos al Instalar Build:"/>
         <setting id="keeptrakt" type="bool" label="Conservar Mis Datos de Trakt" default="true"/>
