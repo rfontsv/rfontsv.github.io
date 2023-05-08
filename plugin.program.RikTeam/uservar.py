@@ -14,7 +14,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #        User Edit Variables                            #
 #########################################################
 ADDONTITLE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[/COLOR][COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
-BUILDERNAME = 'Rik Team'
+BUILDERNAME = 'RikTeam'
 EXCLUDES = [ADDON_ID, 'repository.rfontsv']
 # Text File with build info in it.
 BUILDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/builds.txt'
