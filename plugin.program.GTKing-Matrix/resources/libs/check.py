@@ -407,6 +407,6 @@ def build_count():
             total += 1
             if kodi == 20:
                 count20 += 1
-    return total, count19, adultcount, hidden
+    return total, count20, adultcount, hidden
 
 
