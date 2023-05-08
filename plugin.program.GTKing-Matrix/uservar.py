@@ -13,7 +13,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR azure]NEXUS[/B][/COLOR]'
+ADDONTITLE = '[COLOR azure][B]GTKing[/B][/COLOR] [COLOR lime][B]MATRIX|[/COLOR][COLOR white]|[COLOR white]NEXUS[/B][/COLOR]'
 BUILDERNAME = 'Rik Team'
 EXCLUDES = [ADDON_ID, 'repository.rfontsv']
 # Text File with build info in it.
@@ -66,17 +66,17 @@ COLOR2 = 'white'
 COLOR3 = 'dodgerblue'
 COLOR4 = 'turquoise'
 # Primary menu items   / {0} is the menu item and is required
-THEME1 = u'[COLOR {color2}][COLOR {color1}][B]-[/B][/COLOR][COLOR {color2}][B][/B][COLOR {color1}][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
+THEME1 = u'[COLOR {color1}][COLOR {color1}][B]-[/B][/COLOR][COLOR {color2}][B][/B][COLOR {color1}][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
 # Build Names          / {0} is the menu item and is required
-THEME2 = u'[COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR3)
+THEME2 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR3)
 # Alternate items      / {0} is the menu item and is required
-THEME3 = u'[COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1)
+THEME3 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR1)
 # Current Build Header / {0} is the menu item and is required
-THEME4 = u'[COLOR {color2}][B]Build Actual:[/B][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
+THEME4 = u'[COLOR {color1}][B]Build Actual:[/B][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
 # Current Theme Header / {0} is the menu item and is required
-THEME5 = u'[COLOR {color2}][B]Parche Actual:[/B][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
+THEME5 = u'[COLOR {color1}][B]Parche Actual:[/B][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
 # Current Theme Header / {0} is the menu item and is required
-THEME6 = u'[COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR4)
+THEME6 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR4)
 
 # Message for Contact Page
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
@@ -103,11 +103,11 @@ WIZARDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardf
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'No'
 # Addon ID for the repository
-REPOID = 'repository.RIK'
+REPOID = 'repository.rfontsv
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
 REPOADDONXML = 'https://raw.githubusercontent.com/rfontsv/repo/main/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/rfontsv/repo/main/zips/repository.RIK/'
+REPOZIPURL = 'https://raw.githubusercontent.com/rfontsv/repo/main/zips/repository.rfontsv/'
 #########################################################
 
 #########################################################
