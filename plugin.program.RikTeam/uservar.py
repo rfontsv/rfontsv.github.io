@@ -13,7 +13,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[/COLOR][COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
+ADDONTITLE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
 BUILDERNAME = 'RikTeam'
 EXCLUDES = [ADDON_ID, 'repository.rfontsv']
 # Text File with build info in it.
@@ -61,7 +61,7 @@ SPACER = '<->'
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1 = 'violet'
+COLOR1 = 'limegreen'
 COLOR2 = 'white'
 COLOR3 = 'dodgerblue'
 COLOR4 = 'turquoise'
