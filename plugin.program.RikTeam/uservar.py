@@ -14,8 +14,8 @@ ART = os.path.join(PATH, 'resources', 'media')
 #        User Edit Variables                            #
 #########################################################
 ADDONTITLE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
-BUILDERNAME = 'RikTeam'
-EXCLUDES = [ADDON_ID, 'repository.rfontsv']
+BUILDERNAME = 'Rik Team'
+EXCLUDES = [ADDON_ID, 'repository.GTKing-Matrix']
 # Text File with build info in it.
 BUILDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/builds.txt'
 # How often you would like it to check for build updates in days
@@ -24,12 +24,12 @@ UPDATECHECK = 0
 # Text File with apk info in it.  Leave as 'http://' to ignore
 APKFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/apks.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
-YOUTUBETITLE = 'DETALLE de GTKing Team'
+YOUTUBETITLE = 'DETALLE de Rik Team'
 YOUTUBEFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/youtube.txt'
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE = 'http://'
 # Text File for advanced settings.  Leave as 'http://' to ignore
-ADVANCEDFILE = 'https://raw.githubusercontent.com/gtkingbuild/gtkingbuild.github.io/master/wizard/xml/Advanced.json'
+ADVANCEDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-RFONTSV/master/wizard/xml/Advanced.json'
 #########################################################
 
 #########################################################
@@ -82,7 +82,7 @@ THEME6 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR4)
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Gracias por elegir [COLOR azure]BuildRik de RikTeam.[/COLOR]\n\n'
+CONTACT = 'Gracias por elegir [COLOR azure]BuildRik.[/COLOR]\n\n'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
