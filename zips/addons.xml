@@ -49,7 +49,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.RikTeam" name="[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]" version="3.2" provider-name="RIK TEAM">
+<addon id="plugin.program.RikTeam" name="[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]" version="3.2" provider-name="Rik Team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -64,18 +64,16 @@
 	<extension point="xbmc.service" library="startup.py" start="startup"/>
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="es">[COLOR azure]GTKing[/COLOR] [COLOR white]MATRIX[/COLOR]|[COLOR violet]NEXUS[/COLOR][/B][/COLOR] tu Wizard para [COLOR teal]KODI 19.x y 20.x[/COLOR]!!</summary>
+		<summary lang="es">[COLOR azure]RikTeam[/COLOR] [COLOR lime]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR] tu Wizard para [KODI 19.x y 20.x]</summary>
 		<description>
-[B]• Developers:[/B] [COLOR gold]DavidZgZ y JoseaTEBA[/COLOR]
-[B]• Testers:[/B]        [COLOR dodgerblue]ehSugea, Vicente,
-                        Tete6776, Mapache,
-                        Keto y Th3action. Rik Team[/COLOR]
-[B]• Telegram:[/B]    [COLOR lime]t.me/beelinkking[/COLOR]</description>
+[B]• Developers:[/B] [COLOR gold]Rik Team[/COLOR]
+[B]• Testers:[/B]        [COLOR dodgerblue] Rik Team[/COLOR]
+[B]• Telegram:[/B]    [COLOR lime]t.me/rikteam[/COLOR]</description>
 		<platform>all</platform>
 		<reuselanguageinvoker>false</reuselanguageinvoker>
-		<source>https://www.github.com/rfontsv/plugin.program.RikTeam/</source>
+		<source>https://github.com/rfontsv/rfontsv.github.io</source>
 		<news>
-• plugin.program [COLOR azure][B]RikTeam[/B][/COLOR] [COLOR white][B]MATRIX[COLOR lime]MATRIX[/COLOR][COLOR white]|[/COLOR][COLOR violet]NEXUS[/B][/COLOR]
+• plugin.program [COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[/COLOR][COLOR white]|[/COLOR][COLOR violet]NEXUS[/B][/COLOR]
 
 • 26/09/2021
 - Pruebas con Build Rik MATRIX | NEXUS
