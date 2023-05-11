@@ -1,0 +1,11 @@
+#ricard-office account
+     Host github.com-fontsvr
+          HostName github.com
+          User git
+          IdentityFile ~/.ssh/github-fontsvr
+
+     #rikard-personal account
+     Host github.com-rfontsv
+          HostName github.com
+          User git
+          IdentityFile ~/.ssh/github-rfontsv
