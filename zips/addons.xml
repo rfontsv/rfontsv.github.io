@@ -68,28 +68,13 @@
 		<description>
 [B]• Developers:[/B] [COLOR gold]Rik Team[/COLOR]
 [B]• Testers:[/B]        [COLOR dodgerblue] Rik Team[/COLOR]
-[B]• Telegram:[/B]    [COLOR lime]t.me/rikteam[/COLOR]</description>
+]</description>
 		<platform>all</platform>
 		<reuselanguageinvoker>false</reuselanguageinvoker>
 		<source>https://github.com/rfontsv/rfontsv.github.io</source>
 		<news>
 • plugin.program [COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[/COLOR][COLOR white]|[/COLOR][COLOR violet]NEXUS[/B][/COLOR]
 
-• 26/09/2021
-- Pruebas con Build Rik MATRIX | NEXUS
-• 26/09/2021
-- Traducción en Limpieza.
-
-• 26/08/2021
-- Finalizadas las pruebas con Build Prime GTKing MATRIX.
-
-• 10/07/2021
-- Instalador renombrado a la versión 1.0
-- Añadidas notificaciones para actualizar el parche de la Build.
-
-• 05/03/2021
-- Instalador actualizado a la versión 3.0.4
-- Inciada la compatibilidad con Kodi 19.0 Matrix y 20.0 Nexus
 		</news>
 		<assets>
 			<icon>icon.png</icon>
@@ -98,7 +83,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.rfontsv" name="[B]Repo[/B] [COLOR azure][B]RFONTSV[/B] [COLOR limegreen][B]MATRIX[/B][/COLOR]|[COLOR dodgerblue][B]NEXUS[/B][/COLOR]" version="1.0" provider-name="Rik Team">
+<addon id="repository.rfontsv" name="[B]Repo[/B] [COLOR azure][B]RFONTSV[/B] [COLOR limegreen][B]Matrix[/B][/COLOR]|[COLOR violet][B]Nexus[/B][/COLOR]" version="1.0" provider-name="Rik Team">
     <extension point="xbmc.addon.repository" name="RFONTSV Repository">
         <dir>
 			<info compressed="false">https://raw.githubusercontent.com/rfontsv/rfontsv.github.io/main/zips/addons.xml</info>
@@ -107,10 +92,10 @@
 		</dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repo [COLOR azure]RFONTSV[/COLOR] [COLOR limegreen]MATRIX[/COLOR][COLOR azure]|[/COLOR][COLOR dodgerblue]NEXUS[/COLOR]</summary>
+        <summary>Repo [COLOR azure]RFONTSV[/COLOR] [COLOR limegreen]Matrix[/COLOR][COLOR azure]|[/COLOR][COLOR violet]Nexus[/COLOR]</summary>
         <description>Repositorio de addons [COLOR azure]RFONTSV[/COLOR]
 [COLOR gold]Developers:[/COLOR] Rik Team</description>
-        <disclaimer>Éste repositorio contiene addons válidos para Kodi 19.x MATRIX y 20.x NEXUS.</disclaimer>
+        <disclaimer>Este repositorio contiene addons para Kodi 19.x MATRIX y 20.x NEXUS.</disclaimer>
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
