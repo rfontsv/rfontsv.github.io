@@ -13,23 +13,23 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
+ADDONTITLE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX|[/COLOR][COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
 BUILDERNAME = 'Rik Team'
-EXCLUDES = [ADDON_ID, 'repository.rfontsv']
+EXCLUDES = [ADDON_ID, 'repository.fontsVR']
 # Text File with build info in it.
-BUILDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/builds.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/fontsvr/repo-fontsVR/main/wizardfiles/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
 # Text File with apk info in it.  Leave as 'http://' to ignore
-APKFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/apks.txt'
+APKFILE = 'https://raw.githubusercontent.com/fontsvr/repo-fontsVR/main/wizardfiles/apks.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE = 'DETALLE de Rik Team'
-YOUTUBEFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/youtube.txt'
+YOUTUBEFILE = 'https://raw.githubusercontent.com/fontsvr/repo-fontsVR/main/wizardfiles/youtube.txt'
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE = 'http://'
 # Text File for advanced settings.  Leave as 'http://' to ignore
-ADVANCEDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-RFONTSV/master/wizard/xml/Advanced.json'
+ADVANCEDFILE = 'https://raw.githubusercontent.com/fontsvr/fontsvr.github.io/master/wizard/xml/Advanced.json'
 #########################################################
 
 #########################################################
@@ -60,12 +60,11 @@ HIDESPACERS = 'No'
 SPACER = '<->'
 
 # You can edit these however you want, just make sure that you have a %s in each of the
-# THEME's so it grabs the text from the menu item
-COLOR1 = 'limegreen'
+# THEME's so it grabs the text from the menu item //limegreen, mediumblue
+COLOR1 = 'violet'
 COLOR2 = 'white'
 COLOR3 = 'dodgerblue'
 COLOR4 = 'turquoise'
-COLOR5 = 'violet'
 # Primary menu items   / {0} is the menu item and is required
 THEME1 = u'[COLOR {color1}][COLOR {color1}][B]-[/B][/COLOR][COLOR {color2}][B][/B][COLOR {color1}][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
 # Build Names          / {0} is the menu item and is required
@@ -77,7 +76,7 @@ THEME4 = u'[COLOR {color1}][B]Build Actual:[/B][/COLOR] [COLOR {color2}]{{}}[/CO
 # Current Theme Header / {0} is the menu item and is required
 THEME5 = u'[COLOR {color1}][B]Parche Actual:[/B][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2, color3=COLOR3, color4=COLOR4)
 # Current Theme Header / {0} is the menu item and is required
-THEME6 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR5)
+THEME6 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR4)
 
 # Message for Contact Page
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
@@ -95,7 +94,7 @@ CONTACTFANART = 'http://'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE = 'Yes'
 # Url to wizard version
-WIZARDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardfiles/builds.txt' 
+WIZARDFILE = 'https://raw.githubusercontent.com/fontsvr/repo-fontsVR/main/wizardfiles/builds.txt' 
 #########################################################
 
 #########################################################
@@ -104,11 +103,11 @@ WIZARDFILE = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/main/wizardf
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'No'
 # Addon ID for the repository
-REPOID = 'repository.rfontsv'
+REPOID = 'repository.fontsvr'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/rfontsv/rfontsv.github.io/main/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/fontsvr/repo-fontsVR/main/addons/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://github.com/rfontsv/rfontsv.github.io/tree/main/zips/repository.rfontsv'
+REPOZIPURL = 'https://github.com/fontsvr/repo-fontsVR/tree/main/addons/zips/repository.fontsvr'
 #########################################################
 
 #########################################################
@@ -117,15 +116,15 @@ REPOZIPURL = 'https://github.com/rfontsv/rfontsv.github.io/tree/main/zips/reposi
 # Enable Notification screen Yes or No
 ENABLE = 'Yes'
 # Url to notification file
-NOTIFICATION = 'https://raw.githubusercontent.com/rfontsv/Repo-GTKing/rel/wizardfiles/GTKing/Notify.txt'
+NOTIFICATION = 'https://raw.githubusercontent.com/fontsvr/repo-fontsVR/main/wizardfiles/RV/Notify.txt'
 # Use either 'Text' or 'Image'
 HEADERTYPE = 'Image'
-# Font size of header //Font14
-FONTHEADER = ''
+# Font size of header #'Font14' 
+FONTHEADER = ''  
 HEADERMESSAGE = '[COLOR azure][B]RikTeam[/B][/COLOR] [COLOR lime][B]MATRIX[COLOR white]|[COLOR violet]NEXUS[/B][/COLOR]'
 # url to image if using Image 424x180
 HEADERIMAGE = 'https://res.cloudinary.com/dsmvomgrd/image/upload/v1683640913/build/banner.png'
-# Font for Notification Window // Font13
+# Font for Notification Window #'Font13' 
 FONTSETTINGS = ''
 # Background for Notification Window
 BACKGROUND = 'https://res.cloudinary.com/dsmvomgrd/image/upload/v1683640927/build/fandrart.png'
